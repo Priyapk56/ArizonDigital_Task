@@ -9,6 +9,9 @@ import Brands from '../../client/components/Brands';
 import Offer from '../../client/components/Offer';
 import Subscribe from '../../client/components/Subscribe';
 import Company from '../../client/components/Company';
+import Review from '../../client/components/Review';
+
+
 
 
 
@@ -28,6 +31,7 @@ export default function Home() {
     <Mainpage/>
     <Topcategories/>
     <Whyus/>
+    <Review/>
     <Brands/>
     <Offer/>
     <Subscribe/>

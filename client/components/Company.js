@@ -62,7 +62,7 @@ export default function Company() {
     <FaInstagram className="cursor-pointer hover:text-gray-400" />
     <FaLinkedinIn className="cursor-pointer hover:text-gray-400" />
   </div>
-
+       </div>
 </div>
     <hr className="border-gray-600 my-6" />
 
@@ -70,16 +70,16 @@ export default function Company() {
   <div>© 2025 Quality Bearings Online – All rights reserved.</div>
 
   <div className="flex items-center gap-4">
-    <img src="/icons/amex-white.png" alt="American Express" className="h-6 object-contain" />
-    <img src="/icons/mastercard-white.png" alt="MasterCard" className="h-6 object-contain" />
-    <img src="/icons/paypal-white.png" alt="PayPal" className="h-6 object-contain" />
-    <img src="/icons/visa-white.png" alt="Visa" className="h-6 object-contain" />
-    <img src="/icons/gpay-white.png" alt="Google Pay" className="h-6 object-contain" />
+    <img src="/icons/american-express.svg" alt="American Express" className="h-6 object-contain" />
+    <img src="/icons/mastercard.svg" alt="MasterCard" className="h-6 object-contain" />
+    <img src="/icons/paypal-3.svg" alt="PayPal" className="h-6 object-contain" />
+    <img src="/icons/visa-10.svg" alt="Visa" className="h-6 object-contain" />
+    <img src="/icons/google-pay-2.svg" alt="Google Pay" className="h-6 object-contain" />
   </div>
 </div>
 
 
-      </div>
+      
 
     </footer>
   );
