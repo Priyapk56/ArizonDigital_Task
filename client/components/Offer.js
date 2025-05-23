@@ -32,7 +32,7 @@ const items = [
 export default function ImageWithDescription() {
   return (
     <section className="py-16 px-6 bg-white">
-      <h2 className="text-3xl font-oswald font-bold text-center mb-12 text-black">
+      <h2 className="text-3xl font-oswald font-bold text-center mb-12 text-gray-800">
 Other Services We Offer      </h2>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 max-w-6xl mx-auto">
@@ -47,7 +47,7 @@ Other Services We Offer      </h2>
                 priority
               />
             </div>
-            <p className="text-base text-gray-700">{description}</p>
+            <p className="text-base text-gray-600">{description}</p>
           </div>
         ))}
       </div>

@@ -25,8 +25,8 @@ import Review from '../../client/components/Review';
 export default function Home() {
   return (
     <>
-    <Header/>  
-    <Navbar/>
+    {/* <Header/>   */}
+    {/* <Navbar/> */}
     <Topbar/>
     <Mainpage/>
     <Topcategories/>
@@ -35,7 +35,7 @@ export default function Home() {
     <Brands/>
     <Offer/>
     <Subscribe/>
-    <Company/>
+    {/* <Company/> */}
     </>
   );
 }

@@ -12,7 +12,7 @@ export default function Subscribe() {
   };
 
   return (
-    <section className="bg-blue-900 py-6 px-8">
+    <section className="bg-[#0f1b44] py-6 px-8">
       <form
         onSubmit={handleSubscribe}
         className="flex flex-col sm:flex-row items-center justify-between max-w-6xl mx-auto gap-4"

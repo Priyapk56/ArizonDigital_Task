@@ -1,3 +1,4 @@
+
 "use client";
 
 import Image from "next/image";
@@ -18,17 +19,17 @@ const productImages = [
 
 export default function Brands() {
   return (
-    <section className="py-20 px-8 bg-gray-100 text-blue-1000">
+    <section className="py-20 px-8 bg-gray-100 text-gray-800">
       <h2 className="text-xl md:text-2xl font-oswald font-bold text-center mb-12">
         Distributing World Renowned Brands
       </h2>
 
-      <div className="grid grid-cols-11 gap-6 justify-items-center">
+      <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 xl:grid-cols-11 gap-6 justify-items-center">
         {productImages.map(({ src, alt, link }, index) => (
           <a
             key={index}
             href={link}
-            className="relative w-12 h-12 md:w-15 md:h-15 transform transition-transform duration-300 hover:scale-110"
+            className="relative w-14 h-14 sm:w-16 sm:h-16 transform transition-transform duration-300 hover:scale-110"
             target="_blank"
             rel="noopener noreferrer"
           >

@@ -1,3 +1,4 @@
+
 "use client";
 
 import React from "react";
@@ -11,8 +12,8 @@ export default function Mainpage() {
           Industry Leading Bearings Supplier
         </h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-18 text-left text-lg">
-          <div className="flex flex-col items-start text-gray-700">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-18 text-lg">
+          <div className="flex flex-col items-center md:items-start text-gray-700 text-center md:text-left">
             <Image
               src="/icons/fast.webp" 
               alt="Fast Delivery"
@@ -20,14 +21,15 @@ export default function Mainpage() {
               height={200}
               className="mb-4"
             />
-            <h3 className="font-semibold text-lg text-black mb-2">
+            <h3 className="font-semibold text-lg text-gray-800 mb-2">
               Super-Fast, Hassle Free Delivery
             </h3>
-            <p className="font-sans text-sm">
-Delivered within 1-3 days, with all tax & duties paid within Canada. The price you see online is the price you pay.            </p>
+            <p className=" text-sm">
+              Delivered within 1-3 days, with all tax & duties paid within Canada. The price you see online is the price you pay.
+            </p>
           </div>
 
-          <div className="flex flex-col items-start text-gray-700">
+          <div className="flex flex-col items-center md:items-start text-gray-700 text-center md:text-left">
             <Image
               src="/icons/rating.webp" 
               alt="Customer Service"
@@ -35,7 +37,7 @@ Delivered within 1-3 days, with all tax & duties paid within Canada. The price y
               height={200}
               className="mb-4"
             />
-            <h3 className="font-semibold text-lg text-black mb-2">
+            <h3 className="font-semibold text-lg text-gray-800 mb-2">
               Unrivalled Customer Service
             </h3>
             <p className="text-sm">
@@ -43,7 +45,7 @@ Delivered within 1-3 days, with all tax & duties paid within Canada. The price y
             </p>
           </div>
 
-          <div className="flex flex-col items-start text-gray-700">
+          <div className="flex flex-col items-center md:items-start text-gray-700 text-center md:text-left">
             <Image
               src="/icons/Awardss.webp" 
               alt="Award Winning"
@@ -51,7 +53,7 @@ Delivered within 1-3 days, with all tax & duties paid within Canada. The price y
               height={200}
               className="mb-4"
             />
-            <h3 className="font-semibold text-lg text-black mb-2">
+            <h3 className="font-semibold text-lg text-gray-800 mb-2">
               Multi-Award-Winning
             </h3>
             <p className="text-sm">
@@ -59,7 +61,7 @@ Delivered within 1-3 days, with all tax & duties paid within Canada. The price y
             </p>
           </div>
 
-          <div className="flex flex-col items-start text-gray-700">
+          <div className="flex flex-col items-center md:items-start text-gray-700 text-center md:text-left">
             <Image
               src="/icons/Trusted_Brands.webp" 
               alt="Renowned Brands"
@@ -67,7 +69,7 @@ Delivered within 1-3 days, with all tax & duties paid within Canada. The price y
               height={200}
               className="mb-4"
             />
-            <h3 className="font-semibold text-lg text-black mb-2">
+            <h3 className="font-semibold text-lg text-gray-800 mb-2">
               World Renowned Brands
             </h3>
             <p className="text-sm">
