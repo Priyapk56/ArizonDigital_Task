@@ -1,5 +1,5 @@
-
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import Image from 'next/image'
 
 export default function Company() {
   return (
@@ -34,27 +34,35 @@ export default function Company() {
         </div>
 
         <div className="flex flex-col items-center sm:items-start gap-4">
-          <img
+          <Image
             src="/icons/footer-logo.webp"
             alt="Logo 1"
+            width={250}
+            height={80}
             className="w-[140px] sm:w-[250px] object-contain"
           />
 
-          <img
+          <Image
             src="/icons/sc21.webp"
             alt="Logo 2"
+            width={220}
+            height={80}
             className="w-[140px] sm:w-[220px] object-contain"
           />
 
           <div className="flex gap-4 flex-wrap justify-center sm:justify-start">
-            <img
+            <Image
               src="/icons/Queens_Award_White.webp"
               alt="Logo 3"
+              width={100}
+              height={96}
               className="h-20 sm:h-24 object-contain"
             />
-            <img
+            <Image
               src="/icons/Investers_In_People_23_24-01.jpg"
               alt="Logo 4"
+              width={200}
+              height={96}
               className="h-20 sm:h-24 object-contain"
             />
           </div>
@@ -76,25 +84,39 @@ export default function Company() {
         <div>© 2025 Quality Bearings Online – All rights reserved.</div>
 
         <div className="flex flex-wrap items-center gap-3 justify-center sm:justify-start">
-          <img
+          <Image
             src="/icons/american-express.svg"
             alt="American Express"
+            width={40}
+            height={24}
             className="h-6 object-contain"
           />
-          <img
+          <Image
             src="/icons/mastercard.svg"
             alt="MasterCard"
+            width={40}
+            height={24}
             className="h-6 object-contain"
           />
-          <img
+          <Image
             src="/icons/paypal-3.svg"
             alt="PayPal"
+            width={40}
+            height={24}
             className="h-6 object-contain"
           />
-          <img src="/icons/visa-10.svg" alt="Visa" className="h-6 object-contain" />
-          <img
+          <Image
+            src="/icons/visa-10.svg"
+            alt="Visa"
+            width={40}
+            height={24}
+            className="h-6 object-contain"
+          />
+          <Image
             src="/icons/google-pay-2.svg"
             alt="Google Pay"
+            width={40}
+            height={24}
             className="h-6 object-contain"
           />
         </div>
