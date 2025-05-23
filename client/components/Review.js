@@ -1,9 +1,10 @@
-"use client"
-import { FaStar, FaStarHalfAlt  , FaChevronLeft, FaChevronRight} from 'react-icons/fa';
-import { useState } from 'react';
+
+"use client";
+import { FaStar, FaStarHalfAlt, FaChevronLeft, FaChevronRight } from "react-icons/fa";
+import { useState } from "react";
 
 export default function CustomerReviews() {
-    const reviews = [
+  const reviews = [
     { rating: 5, title: "Great choice and fast to arrive", name: "Trusted Customer", date: "May 22, 2025" },
     { rating: 5, title: "Excellent", name: "Trusted Customer", date: "May 22, 2025" },
     { rating: 5, title: "Excellent,", name: "Kevin Harvey", date: "May 21, 2025" },
@@ -37,10 +38,12 @@ export default function CustomerReviews() {
   const paginatedReviews = reviews.slice(page * reviewsPerPage, (page + 1) * reviewsPerPage);
 
   return (
-    <section className="bg-white px-4 py-12">
-      <h2 className="text-2xl md:text-3xl font-bold text-center text-[#0b1e45] mb-8">Customer Reviews</h2>
+    <section className="bg-white px-4 py-12 overflow-x-hidden">
+      <h2 className="text-2xl md:text-3xl font-bold text-center text-[#0b1e45] mb-8">
+        Customer Reviews
+      </h2>
 
-      <div className="flex flex-col md:flex-row justify-center items-center md:items-start gap-6 mb-10"> 
+      <div className="flex flex-col md:flex-row justify-center items-center md:items-start gap-6 mb-10">
         <div className="text-center md:text-left max-w-xl">
           <p className="text-lg text-gray-900">Average Customer Rating:</p>
           <div className="flex justify-center md:justify-start items-center mt-2 gap-1 text-yellow-400 text-xl">
@@ -50,7 +53,7 @@ export default function CustomerReviews() {
             <img src="/icons/feefo.svg" alt="feefo" className="h-6 ml-2" />
           </div>
           <p className="text-xs text-gray-500 mt-1">
-            Independent Service Rating based on 1164 verified reviews.{' '}
+            Independent Service Rating based on 1164 verified reviews.{" "}
             <span className="text-blue-600 underline cursor-pointer">Read all reviews</span>
           </p>
         </div>
@@ -61,30 +64,46 @@ export default function CustomerReviews() {
           className="h-24 object-contain"
         />
       </div>
-      <hr/>
-      <br/>
 
-      
-      <div className="flex items-stretch justify-center gap-4 max-w-6xl mx-auto">
-<button onClick={handlePrev} disabled={page === 0} className="text-4xl text-gray-600 hover:text-black transition disabled:opacity-30">
+      <hr className="mb-6" />
+
+      <div className="sm:flex items-center justify-between w-full overflow-hidden">
+        {/* Left arrow - only visible on screens >= sm */}
+        <button
+          onClick={handlePrev}
+          disabled={page === 0}
+          className="hidden sm:flex text-4xl text-gray-600 hover:text-black transition disabled:opacity-30"
+        >
           <FaChevronLeft />
         </button>
-        {paginatedReviews.map((review, idx) => (
-          <div key={idx} className="flex-1 px-2 text-left text-gray-800">
-            <div className="flex items-center text-yellow-400 mb-2">
-              {Array(review.rating).fill(0).map((_, i) => <FaStar key={i} />)}
-              {review.rating < 5 && <FaStarHalfAlt />}
+
+        <div className="flex flex-wrap justify-center gap-4 w-full px-2">
+          {paginatedReviews.map((review, idx) => (
+            <div
+              key={idx}
+              className="w-full sm:flex-1 sm:min-w-[200px] sm:max-w-[250px] bg-gray-50 p-4 rounded shadow text-left text-gray-800"
+            >
+              <div className="flex items-center text-yellow-400 mb-2">
+                {Array(review.rating).fill(0).map((_, i) => <FaStar key={i} />)}
+                {review.rating < 5 && <FaStarHalfAlt />}
+              </div>
+              <p className="font-semibold">{review.title}</p>
+              {review.comment && <p className="text-sm mt-1">{review.comment}</p>}
+              <p className="text-xs text-gray-500 mt-1">{review.name} – {review.date}</p>
             </div>
-            <p className="font-semibold">{review.title}</p>
-            {review.comment && <p className="text-sm mt-1">{review.comment}</p>}
-            <p className="text-xs text-gray-500 mt-1">{review.name} – {review.date}</p>
-          </div>
-        ))}
+          ))}
+        </div>
 
-<button onClick={handleNext} disabled={page === totalPages - 1} className="text-4xl text-gray-600 hover:text-black transition disabled:opacity-30">
+        {/* Right arrow - only visible on screens >= sm */}
+        <button
+          onClick={handleNext}
+          disabled={page === totalPages - 1}
+          className="hidden sm:flex text-4xl text-gray-600 hover:text-black transition disabled:opacity-30"
+        >
           <FaChevronRight />
-        </button>      </div>
-
+        </button>
+      </div>
     </section>
   );
 }
+

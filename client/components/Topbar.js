@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export default function Topbar() {
   return (
-    <div className="w-full">
+    <div className="">
       <div className="h-[5px] bg-yellow-600 w-full" />
 
       <div className="hidden sm:block bg-gray-100 w-full px-4 py-3 shadow-md font-roboto-slab">
