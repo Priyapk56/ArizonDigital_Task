@@ -39,7 +39,7 @@ Delivered within 1-3 days, with all tax & duties paid within Canada. The price y
               Unrivalled Customer Service
             </h3>
             <p className="text-sm">
-              With over 75 years' industry experience, you can trust Quality Bearings Online.
+              With over 75 years industry experience, you can trust Quality Bearings Online.
             </p>
           </div>
 
@@ -55,7 +55,7 @@ Delivered within 1-3 days, with all tax & duties paid within Canada. The price y
               Multi-Award-Winning
             </h3>
             <p className="text-sm">
-              Winners of the Queen’s Award for Enterprise for International Trade, 2023. Lloyds Bank Employer of the Year.
+              Winners of the Queen&apos;s Award for Enterprise for International Trade, 2023. Lloyds Bank Employer of the Year.
             </p>
           </div>
 
@@ -71,7 +71,7 @@ Delivered within 1-3 days, with all tax & duties paid within Canada. The price y
               World Renowned Brands
             </h3>
             <p className="text-sm">
-              Quality branded products from the world's leading brands such as Kluber, Timken, FAG, and many more.
+              Quality branded products from the world&apos;s leading brands such as Kluber, Timken, FAG, and many more.
             </p>
           </div>
         </div>

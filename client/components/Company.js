@@ -1,4 +1,5 @@
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
+import Image from 'next/image';
 
 export default function Company() {
   return (
@@ -27,7 +28,7 @@ export default function Company() {
         
         <div className="flex flex-col gap-6">
   <div className="flex justify-center">
-    <img
+    <Image
       src="/icons/footer-logo.webp"
       alt="Logo 1"
       className="h-24 w-[800px] object-contain"
@@ -35,7 +36,7 @@ export default function Company() {
   </div>
 
   <div className="flex justify-center">
-    <img
+    <Image
       src="/icons/sc21.webp"
       alt="Logo 2"
       className="h-22 object-contain"
@@ -43,12 +44,12 @@ export default function Company() {
   </div>
 
   <div className="flex justify-center gap-8 flex-wrap">
-    <img
+    <Image
       src="/icons/Queens_Award_White.webp"
       alt="Logo 3"
       className="h-24 object-contain "
     />
-    <img
+    <Image
       src="/icons/Investers_In_People_23_24-01.jpg"
       alt="Logo 4"
       className="h-24 object-contain"
@@ -70,11 +71,11 @@ export default function Company() {
   <div>© 2025 Quality Bearings Online – All rights reserved.</div>
 
   <div className="flex items-center gap-4">
-    <img src="/icons/american-express.svg" alt="American Express" className="h-6 object-contain" />
-    <img src="/icons/mastercard.svg" alt="MasterCard" className="h-6 object-contain" />
-    <img src="/icons/paypal-3.svg" alt="PayPal" className="h-6 object-contain" />
-    <img src="/icons/visa-10.svg" alt="Visa" className="h-6 object-contain" />
-    <img src="/icons/google-pay-2.svg" alt="Google Pay" className="h-6 object-contain" />
+    <Image src="/icons/american-express.svg" alt="American Express" className="h-6 object-contain" />
+    <Image src="/icons/mastercard.svg" alt="MasterCard" className="h-6 object-contain" />
+    <Image src="/icons/paypal-3.svg" alt="PayPal" className="h-6 object-contain" />
+    <Image src="/icons/visa-10.svg" alt="Visa" className="h-6 object-contain" />
+    <Image src="/icons/google-pay-2.svg" alt="Google Pay" className="h-6 object-contain" />
   </div>
 </div>
 

@@ -1,22 +1,22 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono ,Oswald , Roboto_Slab} from "next/font/google";
+import { Oswald } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
+// const geistSans = Geist({
+//   variable: "--font-geist-sans",
+//   subsets: ["latin"],
+// });
 
-const robotoSlab = Roboto_Slab({
-  subsets: ['latin'],
-  weight: ['400', '500', '700'], 
-  variable: '--font-roboto-slab',
-});
+// const robotoSlab = Roboto_Slab({
+//   subsets: ['latin'],
+//   weight: ['400', '500', '700'], 
+//   variable: '--font-roboto-slab',
+// });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+// const geistMono = Geist_Mono({
+//   variable: "--font-geist-mono",
+//   subsets: ["latin"],
+
 const oswald = Oswald({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"], 
