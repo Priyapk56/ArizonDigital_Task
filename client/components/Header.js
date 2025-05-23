@@ -246,7 +246,7 @@ export default function Header() {
       </div>
 
       {/* Spacer to prevent content from hiding behind fixed header */}
-      <div className="h-[220px]" />
+      <div className="h-[178px]" />
     </>
   );
 }

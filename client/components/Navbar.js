@@ -377,7 +377,7 @@ const menuData = [
 
 export default function Navbar() {
   return (
-    <nav className="font-oswald bg-[#0f1b44] text-white text-sm px-6 py-3 top-[220px] z-40">
+    <nav className="font-oswald bg-[#0f1b44] text-white text-sm px-6 py-3 top-[200px] z-40">
       <div className="flex flex-wrap gap-1">
         {menuData.slice(0, 9).map((menu) => (
           <DropdownMenu key={menu.title} menu={menu} align="left" />
