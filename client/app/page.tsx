@@ -12,16 +12,6 @@ import Subscribe from '../../client/components/Subscribe';
 import Review from '../../client/components/Review';
 
 
-
-
-
-
-
-
-
-
-
-
 export default function Home() {
   return (
     <>

@@ -62,13 +62,18 @@ export default function Header() {
             </button>
 
             <div className="flex-1 text-center">
+              <div>
+          <Link href="#">
+            
               <Image
                 src="/icons/image.webp"
                 alt="Logo"
-                width={180}
+                width={300}
                 height={50}
-                className="mx-auto"
               />
+            
+          </Link>
+        </div>
             </div>
 
             <a href="#" className="text-2xl">
@@ -89,12 +94,13 @@ export default function Header() {
 
           <div className="hidden md:flex justify-between items-center">
             <div>
+              <Link href="#">
               <Image
                 src="/icons/image.webp"
                 alt="Logo"
                 width={300}
                 height={50}
-              />
+              /></Link>
             </div>
 
             <div className="flex">

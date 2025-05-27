@@ -4,17 +4,8 @@ export default function About() {
       <h1 className="text-3xl font-bold mb-4 text-center text-[#0f1b44]">About Us</h1>
       <p className="text-gray-700 leading-relaxed">
 It began with a simple idea: transforming the way bearings were traditionally sold and disrupting the industry by selling them online. Founded in 2012 by Denny Maude and Simon Riley, the company was envisioned as an online bearing business, with a focus on digital-first philosophies in both sales and customer service. While the concept was simple, execution proved more challenging. Initially, it was difficult to find customers willing to move away from the traditional methods of ordering and embrace our key product lines online.
-
-
-
 In March 2016, we shifted our strategy away from the UK market and focused on international expansion, relaunching QBOL’s website with an improved online presence.
-
-
-
 Between 2016 and 2019, we won seven major awards that recognized our international growth and success in exporting. One of the most notable awards during this period was the Northern Powerhouse Export Award for Export Team of the Year. In 2022, we were honoured to receive one of the most prestigious accolades: the Queen’s Award for Enterprise in International Trade. Having our culture and values recognized was a significant achievement for our team.
-
-
-
 What began as a simple idea has grown into an incredible company with remarkable people, constantly striving to change the world of bearing distribution.
 
 Our Vision, Mission & Values

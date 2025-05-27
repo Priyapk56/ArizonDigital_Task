@@ -11,20 +11,22 @@ const menuData = [
     columns: [
       {
         heading: "Shell Lubricants",
-        items: ["Advance", "Aeroshell", "Air Tool Oil", "Argina", "Caprinus"],
+        items: [ "Advance", "Aeroshell", "Air Tool Oil", "Argina", "Caprinus",
+          "Corena", "Diala", "Gadinia", "Gadus", "Heat Transfer Oil", "Helix",
+          "Hydraulic", "Melina", "Morlina", "Mysella", "Naturelle", "Nautilus",
+          "Omala", "Refrigeration", "Rhodina", "Rimula", "Rotella", "Skydrol",
+          "Spirax", "Sterak", "Tegula", "Tellus", "Tonna"],
       },
       {
         heading: "Kluber Products",
-        items: ["Altemp", "Amblygon", "Asonic", "Barrierta", "Catenera"],
+        items: [ "Altemp", "Amblygon", "Asonic", "Barrierta", "Catenera",
+          "Centoplex", "Constant", "Contrakor", "Costrac", "Duotempi",
+          "Fluoropan", "Forminol", "Grafloscon", "Hotemp"],
       },
       {
         heading: "Dow Corning Products",
         items: [
-          "Silicone Grease",
-          "Mold Release",
-          "Sealant",
-          "Compound",
-          "Paste",
+          
         ],
       },
     ],
@@ -33,8 +35,11 @@ const menuData = [
     title: "Brands",
     columns: [
       {
-        heading: "Top Brands",
-        items: ["SKF", "FAG", "NSK", "NTN", "Timken"],
+        heading: "SKF",
+        items: ["Angle Rings", "Angular Contact Spherical Plain", "CARB Toroidal Roller Bearing",
+           "Cylindrical Roller Bearing", "Deep Groove Radial Ball Bearings", "Double Row Angular Contact",
+            "Double Row Self Aligning", "Flanged Housing", "Four Point Contact Bearings", "Magneto",
+             "Maintenance Products", "Miniatures", "Plummer Block Housing", "Radial Shaft Seals"],
       },
     ],
   },
@@ -42,13 +47,10 @@ const menuData = [
     title: "Ball Bearings",
     columns: [
       {
-        heading: "Types",
+        heading: "Deep Groove | Radial Ball Bearings",
         items: [
-          "Deep Groove",
-          "Angular Contact",
-          "Self Aligning",
-          "Miniature",
-          "Thrust",
+          "16000 Series", "4200 Series", "4300 Series", "6000 Series", "6200 Series", "6300 Series", "6400 Series", 
+          "62200 Series", "62300 Series", "63000 Series", "Imperial", "Max Capacity Bearings", "Stainless Steel"
         ],
       },
     ],
@@ -57,13 +59,9 @@ const menuData = [
     title: "Roller Bearings",
     columns: [
       {
-        heading: "Types",
+        heading: "Cylindrical Roller Bearings",
         items: [
-          "Cylindrical",
-          "Tapered",
-          "Spherical",
-          "Needle",
-          "Cam Followers",
+           "N Series", "NF Series", "NJ Series", "NNF Series", "NU Series", "NUP Series"
         ],
       },
     ],
@@ -72,13 +70,10 @@ const menuData = [
     title: "Housings and Inserts",
     columns: [
       {
-        heading: "Categories",
+        heading: "Bearings and Inserts",
         items: [
-          "Pillow Block",
-          "Flanged",
-          "Take-Up",
-          "Cartridge",
-          "Split Housings",
+          "1000 Series", "1000 Series With Adapter Sleeve", "1100 Series", "1200 Series", "YAR Series", "YAT Series", 
+          "YEL Series", "YET Series", "YSA Series", "UC Series", "SB Series", "UK Series - Tapered Bore"
         ],
       },
     ],
@@ -87,8 +82,11 @@ const menuData = [
     title: "Linear",
     columns: [
       {
-        heading: "Linear Products",
-        items: ["Ball Screws", "Linear Guides", "Bushings", "Rails", "Stages"],
+        heading: "Cam and Roller Follwers",
+        items: [ "CF - Standard Type","CRH - Inch Series", 
+          "CF RU1|FU1 - Centralized Lubrication Type","CF SFU - Easy Mounting Type","CF W - Thrust Disk Type",
+          "CF WB SG- C-Lube Cam Follower", "CFE - Eccentric Type","CFES - Solid Eccentric Stud Type","CFKR - Double Hex Hole Type",
+          "CFS - Miniature Series","CR - Inch Series","CRY - Non Separable"],
       },
     ],
   },
@@ -96,8 +94,8 @@ const menuData = [
     title: "Super Precision",
     columns: [
       {
-        heading: "Options",
-        items: ["High Speed", "Spindle", "Ceramic", "Hybrid", "Miniature"],
+        heading: "Super Precision Angular Contact",
+        items: [ "2MM", "3MM", "7000 Series", "71800 Series", "7900 Series","71900 Series","7200 Series","7300 Series"],
       },
     ],
   },
@@ -105,13 +103,9 @@ const menuData = [
     title: "Spherical Plains",
     columns: [
       {
-        heading: "Types",
+        heading: "Spherical Plain Bearings",
         items: [
-          "Radial",
-          "Angular",
-          "Rod Ends",
-          "Maintenance-Free",
-          "Sealed",
+          "GE Series","GEG Series","GEH Series","GEM Series","GEP Series","Imperial"
         ],
       },
     ],
@@ -120,8 +114,8 @@ const menuData = [
     title: "Power Transmission",
     columns: [
       {
-        heading: "PT Components",
-        items: ["Belts", "Chains", "Couplings", "Sprockets", "Pulleys"],
+        heading: "ContiTech SilentSync Belts",
+        items: [  "Blue","Green","Orange","Purple","Red","White","Yellow"],
       },
     ],
   },
@@ -129,13 +123,10 @@ const menuData = [
     title: "Maintenance Tools",
     columns: [
       {
-        heading: "Tools",
+        heading: "Basic Condition Monitoring Tools",
         items: [
-          "Heaters",
-          "Pullers",
-          "Installation Tools",
-          "Detectors",
-          "Lubrication",
+          "Electrical Discharge Detector Pen", "Electronic Stethoscope", "Endoscope", "K-type Thermocouple Probe",
+          "Microlog Analyzer","Sound Pressure Meter", "Stroboscope", "Tachometer","Thermometer", "Ultrasonic Leak Detector"
         ],
       },
     ],
@@ -144,13 +135,10 @@ const menuData = [
     title: "Oil Seals",
     columns: [
       {
-        heading: "Seal Types",
+        heading: "Bearing Insert",
         items: [
-          "Rotary",
-          "Hydraulic",
-          "Pneumatic",
-          "Labyrinth",
-          "V-Rings",
+          "1000 Series", "1000 Series With Adapter Sleeve", "1100 Series", "1200 Series", "YAR Series",
+          "YAT Series", "YEL Series", "YET Series", "YSA Series", "UC Series","SB Series", "UK Series - Tapered Bore"
         ],
       },
     ],

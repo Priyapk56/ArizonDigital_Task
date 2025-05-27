@@ -1,6 +1,6 @@
 'use client';
 
-import About from '../../components/About'; // Adjust path if alias not set
+import About from '../../components/About';
 
 export default function AboutPage() {
   return <About />;

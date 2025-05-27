@@ -68,7 +68,6 @@ export default function CustomerReviews() {
       <hr className="mb-6" />
 
       <div className="sm:flex items-center justify-between w-full overflow-hidden">
-        {/* Left arrow - only visible on screens >= sm */}
         <button
           onClick={handlePrev}
           disabled={page === 0}
@@ -94,7 +93,6 @@ export default function CustomerReviews() {
           ))}
         </div>
 
-        {/* Right arrow - only visible on screens >= sm */}
         <button
           onClick={handleNext}
           disabled={page === totalPages - 1}
