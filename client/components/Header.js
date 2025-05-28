@@ -1,3 +1,4 @@
+
 "use client";
 import Link from "next/link";
 import Image from "next/image";
@@ -8,6 +9,7 @@ import {
   FaHistory,
   FaShoppingCart,
   FaBars,
+  FaSearch
 } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import Navbar from "./Navbar";
@@ -61,19 +63,16 @@ export default function Header() {
               <FaBars />
             </button>
 
-            <div className="flex-1 text-center">
-              <div>
-          <Link href="#">
-            
-              <Image
-                src="/icons/image.webp"
-                alt="Logo"
-                width={300}
-                height={50}
-              />
-            
-          </Link>
-        </div>
+            <div className="flex-1 flex justify-center">
+              <Link href="#">
+                <Image
+                  src="/icons/image.webp"
+                  alt="Logo"
+                  width={250}
+                  height={40}
+                  className="object-contain h-auto w-auto max-w-[150px]"
+                />
+              </Link>
             </div>
 
             <a href="#" className="text-2xl">
@@ -88,19 +87,21 @@ export default function Header() {
               className="border border-black px-4 py-2 rounded-l-md w-full max-w-xs"
             />
             <button className="bg-gray-800 text-white px-4 py-2 rounded-r-md">
-              Search
+              <FaSearch/>
             </button>
           </div>
 
           <div className="hidden md:flex justify-between items-center">
             <div>
               <Link href="#">
-              <Image
-                src="/icons/image.webp"
-                alt="Logo"
-                width={300}
-                height={50}
-              /></Link>
+                <Image
+                  src="/icons/image.webp"
+                  alt="Logo"
+                  width={300}
+                  height={50}
+                  className="w-[300px] h-auto object-contain"
+                />
+              </Link>
             </div>
 
             <div className="flex">
@@ -110,7 +111,7 @@ export default function Header() {
                 className="border border-black px-6 py-3 rounded-l-md w-72"
               />
               <button className="bg-gray-800 text-white px-6 py-3 rounded-r-md">
-                Search
+                <FaSearch/>
               </button>
             </div>
 
