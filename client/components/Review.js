@@ -3,7 +3,7 @@
 import { FaStar, FaStarHalfAlt, FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import { useState } from "react";
 
-export default function CustomerReviews() {
+export default function Review() {
   const reviews = [
     { rating: 5, title: "Great choice and fast to arrive", name: "Trusted Customer", date: "May 22, 2025" },
     { rating: 5, title: "Excellent", name: "Trusted Customer", date: "May 22, 2025" },
